@@ -7,7 +7,8 @@
     "start": "expo start",
     "android": "expo run:android",
     "web": "expo start --web",
-    "build:android": "expo build:android"
+    "build:android": "cd android && ./gradlew assembleDebug",
+    "build:release": "cd android && ./gradlew assembleRelease"
   },
   "dependencies": {
     "expo": "~55.0.0",
