@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "OpenCode Mobile",
+    "slug": "opencode-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0a0a1a"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.opencode.mobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0a0a1a"
+      },
+      "package": "com.opencode.mobile",
+      "permissions": ["INTERNET"]
+    },
+    "plugins": []
+  }
+}
